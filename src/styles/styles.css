@@ -1,0 +1,158 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+}
+
+li {
+    list-style: none;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    position: relative;
+}
+
+.header .container .logo {
+    margin: 0 50px 0 0;
+    display: flex;
+}
+
+.header .container .menu {
+    margin: 0 50px 0 0;
+}
+
+.header .container .menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #292D32;
+    margin: 0;
+}
+
+.header .container .search {
+    margin: 0;
+}
+
+.header .container .user-menu {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.header .container .user-menu ul {
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.header .container .user-menu ul .user-menu-item {
+    position: relative;
+    width: 49px;
+    height: 49px;
+}
+
+.header .container .user-menu .profile-name {
+    margin-right: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.header .container .user-menu ul .user-menu-item .profile {
+    display: none;
+    flex-direction: column;
+    position: relative;
+    width: 405px;
+    left: -177px;
+    bottom: -37px;
+}
+
+.header .container .user-menu ul .user-menu-item .user-menu-item-image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49px;
+    height: 49px;
+    background: #F9F9F9;
+    border-radius: 50%;
+}
+
+.header .container .user-menu ul .user-menu-item .user-menu-item-image .shopping-num {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    background: #48A4EB;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+.header .container .user-menu ul .profile .profile-menu {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+}
+
+.header .container .user-menu ul .profile .profile-menu .profile-menu-item {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+
+.header .container .user-menu ul .profile .profile-menu .profile-user {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.header .container .user-menu ul .profile .profile-menu .profile-user .profile-user-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49px;
+    height: 49px;
+    background: #F9F9F9;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+}
+
+.header .container .user-menu ul .profile .profile-menu .profile-user .profile-user-name {
+    margin: 0;
+}
+
+.header .container .user-menu ul .profile .profile-menu .profile-exit {
+    border-radius: 0 0 20px 20px;
+}
